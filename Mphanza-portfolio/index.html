@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Mphanza - Computer Scientist</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">MM</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="greeting">Hello, I am</span>
+                    <span class="name">Michael Mphanza</span>
+                </h1>
+                <p class="hero-subtitle">Computer Scientist</p>
+                <p class="hero-description">
+                    A Christ-centered Computer Science student passionate about technology, software development, and personal growth
+                    Crafting innovative solutions through code and pushing the boundaries of technology
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#about" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">
+                    <div class="card-glow"></div>
+                    <div class="profile-photo-container">
+                          <img src="IMG-20251004-WA0006.jpg" alt="Michael Mphanza" class="profile-photo-clear">
+                </div>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-paragraph">
+                        As a passionate Computer Scientist, I specialize in developing cutting-edge solutions 
+                        that bridge the gap between complex problems and elegant implementations.
+                    </p>
+                    <p class="about-paragraph">
+                        With expertise in software development, algorithms, and system design, I'm committed 
+                        to creating technology that makes a meaningful impact.
+                    </p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <div class="stat-number">2</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">3</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="16 18 22 12 16 6"></polyline>
+                            <polyline points="8 6 2 12 8 18"></polyline>
+                        </svg>
+                    </div>
+                    <h3 class="skill-title">Programming</h3>
+                    <p class="skill-description">Python, C++, JavaScript,c language</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="3" width="20" height="14" rx="2"></rect>
+                            <line x1="8" y1="21" x2="16" y2="21"></line>
+                            <line x1="12" y1="17" x2="12" y2="21"></line>
+                        </svg>
+                    </div>
+                    <h3 class="skill-title">Web Development</h3>
+                    <p class="skill-description">, Node.js, HTML/CSS,tailwind</p>
+                </div>
+                <!-- Removed Data Science and System Design cards per request; only Programming and Web Development remain -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section (imported from Start Project Glass Personal Portfolio Website) -->
+    <section id="courses" class="courses">
+        <div class="container">
+            <h2 class="section-title">Courses <span style="color:var(--text-secondary);">Completed</span></h2>
+            <div class="courses-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.25rem;">
+                <!-- course card template: .course-card contains icon and body -->
+                <div class="course-card">
+                    <div class="course-icon" aria-hidden="true">
+                        <!-- microchip -->
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="36" height="36"><rect x="7" y="7" width="10" height="10" rx="1.5"></rect><path d="M3 9v6M21 9v6M9 3h6M9 21h6"/></svg>
+                    </div>
+                    <div class="course-body">
+                        <h3>Microprocessor</h3>
+                        <p>Computer Architecture</p>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-icon" aria-hidden="true">
+                        <!-- database -->
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="36" height="36"><ellipse cx="12" cy="6" rx="8" ry="3"></ellipse><path d="M4 6v6c0 1.657 3.582 3 8 3s8-1.343 8-3V6"/></svg>
+                    </div>
+                    <div class="course-body">
+                        <h3>Database Design</h3>
+                        <p>Data Management</p>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-icon" aria-hidden="true">
+                        <!-- C language -->
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="36" height="36"><path d="M6 4h12v16H6z"/><path d="M6 8h12"/></svg>
+                    </div>
+                    <div class="course-body">
+                        <h3>C Programming</h3>
+                        <p>Programming Fundamentals</p>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-icon" aria-hidden="true">
+                        <!-- cpp -->
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="36" height="36"><path d="M4 6h16M4 18h16M8 6v12"/></svg>
+                    </div>
+                    <div class="course-body">
+                        <h3>C++ Programming</h3>
+                        <p>Object-Oriented Programming</p>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-icon" aria-hidden="true">
+                        <!-- python -->
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="36" height="36"><path d="M7 3h6v4H7zM11 21H5v-4h6zM7 7v2M11 15v2"/></svg>
+                    </div>
+                    <div class="course-body">
+                        <h3>Python Programming</h3>
+                        <p>Scripting &amp; Automation</p>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-icon" aria-hidden="true">
+                        <!-- math/brain -->
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="36" height="36"><path d="M12 2v20"/><path d="M2 12h20"/></svg>
+                    </div>
+                    <div class="course-body">
+                        <h3>Computational Math</h3>
+                        <p>Problem Solving</p>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-icon" aria-hidden="true">
+                        <!-- network -->
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="36" height="36"><circle cx="12" cy="6" r="2"/><circle cx="6" cy="18" r="2"/><circle cx="18" cy="18" r="2"/><path d="M12 8v6M6 18h12"/></svg>
+                    </div>
+                    <div class="course-body">
+                        <h3>Intro to Networking</h3>
+                        <p>Network Fundamentals</p>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-icon" aria-hidden="true">
+                        <!-- electronics -->
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="36" height="36"><path d="M3 12h18"/><path d="M12 3v18"/></svg>
+                    </div>
+                    <div class="course-body">
+                        <h3>Digital Electronics</h3>
+                        <p>Hardware Fundamentals</p>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-icon" aria-hidden="true">
+                        <!-- mobile -->
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="36" height="36"><rect x="7" y="2" width="10" height="20" rx="2"/></svg>
+                    </div>
+                    <div class="course-body">
+                        <h3>Mobile Computing</h3>
+                        <p>Mobile Technologies</p>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-icon" aria-hidden="true">
+                        <!-- dsa -->
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="36" height="36"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+                    </div>
+                    <div class="course-body">
+                        <h3>Data Structures &amp; Algorithms</h3>
+                        <p>C Programming</p>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-icon" aria-hidden="true">
+                        <!-- graphics -->
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="36" height="36"><rect x="3" y="3" width="18" height="14" rx="1"/></svg>
+                    </div>
+                    <div class="course-body">
+                        <h3>Computer Graphics</h3>
+                        <p>Visual Computing</p>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-icon" aria-hidden="true">
+                        <!-- architecture -->
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="36" height="36"><path d="M3 10h18M6 10v10h12V10"/></svg>
+                    </div>
+                    <div class="course-body">
+                        <h3>Computer Architecture</h3>
+                        <p>System Design</p>
+                    </div>
+                </div>
+
+                <!-- New: Communication Skills -->
+                <div class="course-card">
+                    <div class="course-icon" aria-hidden="true">
+                        <!-- communication (chat) -->
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="36" height="36"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                    </div>
+                    <div class="course-body">
+                        <h3>Communication Skills</h3>
+                        <p>Presentation &amp; Teamwork</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section (pulled from main portfolio) -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <p class="section-subtitle">Some selected projects showcasing my work.</p>
+            <div class="projects-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2rem;">
+                <div class="project-card" style="background:var(--card-bg);padding:1.5rem;border-radius:12px;border:1px solid var(--card-border);">
+                    <div style="height:180px;overflow:hidden;border-radius:10px;margin-bottom:1rem;">
+                        <!-- Using the provided project image for the portfolio website -->
+                        <img src="html-project.png" alt="Portfolio Website" style="width:100%;height:100%;object-fit:cover;"/>
+                    </div>
+                    <h3 style="margin:0 0 .5rem 0;color:var(--text-primary);">Portfolio Website (HTML/CSS)</h3>
+                    <p style="color:var(--text-secondary);margin-bottom:.75rem;">Responsive portfolio website built with HTML and CSS, featuring a minimalist layout and a cool beige/dark-brown aesthetic for a sleek, professional presentation.</p>
+                    <div style="display:flex;gap:.5rem;flex-wrap:wrap;"><span style="background:var(--dark-bg);color:var(--text-primary);padding:.25rem .5rem;border-radius:8px;font-size:.85rem;">HTML/CSS</span><span style="background:var(--dark-bg);color:var(--text-primary);padding:.25rem .5rem;border-radius:8px;font-size:.85rem;">Responsive</span></div>
+                </div>
+
+                <div class="project-card" style="background:var(--card-bg);padding:1.5rem;border-radius:12px;border:1px solid var(--card-border);">
+                    <div style="height:180px;overflow:hidden;border-radius:10px;margin-bottom:1rem;">
+                        <img src="networking.png" alt="LAN Network Simulation" style="width:100%;height:100%;object-fit:cover;"/>
+                    </div>
+                    <h3 style="margin:0 0 .5rem 0;color:var(--text-primary);">LAN Network Simulation</h3>
+                    <p style="color:var(--text-secondary);margin-bottom:.75rem;">Cisco Packet Tracer setup for 50 users with file sharing and network security protocols.</p>
+                    <div style="display:flex;gap:.5rem;flex-wrap:wrap;"><span style="background:var(--dark-bg);color:var(--text-primary);padding:.25rem .5rem;border-radius:8px;font-size:.85rem;">Networking</span><span style="background:var(--dark-bg);color:var(--text-primary);padding:.25rem .5rem;border-radius:8px;font-size:.85rem;">Security</span></div>
+                </div>
+
+                <div class="project-card" style="background:var(--card-bg);padding:1.5rem;border-radius:12px;border:1px solid var(--card-border);">
+                    <div style="height:180px;overflow:hidden;border-radius:10px;margin-bottom:1rem;">
+                        <img src="3D-gallery.png" alt="Virtual Art Gallery" style="width:100%;height:100%;object-fit:cover;"/>
+                    </div>
+                    <h3 style="margin:0 0 .5rem 0;color:var(--text-primary);">Virtual Art Gallery</h3>
+                    <p style="color:var(--text-secondary);margin-bottom:.75rem;">3D environment built with Three.js allowing users to explore artwork in an immersive virtual space.</p>
+                    <div style="display:flex;gap:.5rem;flex-wrap:wrap;"><span style="background:var(--dark-bg);color:var(--text-primary);padding:.25rem .5rem;border-radius:8px;font-size:.85rem;">Three.js</span><span style="background:var(--dark-bg);color:var(--text-primary);padding:.25rem .5rem;border-radius:8px;font-size:.85rem;">WebGL</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <p class="contact-intro">
+                    Interested in collaborating or have a project in mind? Let's connect!
+                </p>
+                <div class="contact-methods">
+                    <a href="tel:+260963650427" class="contact-card">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.86 19.86 0 0 1 2.09 4.18 2 2 0 0 1 4 2h3a2 2 0 0 1 2 1.72c.12 1.05.38 2.07.76 3.03a2 2 0 0 1-.45 2.11L8.91 11.09a16 16 0 0 0 6 6l1.23-1.23a2 2 0 0 1 2.11-.45c.96.38 1.98.64 3.03.76A2 2 0 0 1 22 16.92z"></path>
+                            </svg>
+                        </div>
+                        <span>+260 96 365 0427</span>
+                    </a>
+
+                    <a href="mailto:michaelmphanza5@gmail.com" class="contact-card">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                        </div>
+                        <span>Email Me</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/michael-mphanza-704567377/" target="_blank" class="contact-card">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                        </div>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/mike14-jpg" target="_blank" class="contact-card">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
+                        </div>
+                        <span>GitHub</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Michael Mphanza. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
